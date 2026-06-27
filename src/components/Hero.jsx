@@ -1,4 +1,3 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profileImage from "../assets/profile1.png";
 import { motion } from "framer-motion";
@@ -28,12 +27,12 @@ const Hero = () => {
             className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
               Maruf Khan
             </motion.h1>
-            <motion.span 
-            variants={container(0.5)}
-            initial="hidden"
-            animate="visible"
-            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-              Full Stack Developer
+<motion.span
+              variants={container(0.5)}
+              initial="hidden"
+              animate="visible"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
+              WordPress Plugin Developer | 4+ years
             </motion.span>
             <motion.p 
             variants={container(1)}

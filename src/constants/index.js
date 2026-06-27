@@ -2,12 +2,20 @@ import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
+import ultimatte_security from "../assets/projects/ultimate-security.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Tailwind CSS, as well as back-end technologies like Php, MySQL and CMS WordPress, Laravel Framework. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm Maruf Khan from Dhaka — a WordPress plugin developer with 4+ years building secure, scalable WordPress plugins and custom solutions. Currently at Prime Tech Solutions Ltd (2025–Present) developing a security-focused plugin; seeking a senior role to lead plugin architecture, security, and backend integrations.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional experience, I have worked with a variety of technologies, including React, MySQL, Php. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a WordPress plugin developer based in Mirpur, Dhaka, with 4+ years of experience building secure, scalable plugins and custom solutions for agencies and enterprises. I specialise in PHP, WordPress architecture, and backend integrations — from authentication and REST APIs to database optimisation and security hardening. Currently at Prime Tech Solutions Ltd, I architected and maintain a WordPress security plugin published on WordPress.org, covering 2FA, brute-force protection, CAPTCHA, and session controls. I also work with React, Docker, and AWS for deployment and frontend tooling. I'm looking for a senior role where I can lead plugin architecture, improve development workflows, and build tools that site owners can trust.`;
 
 export const EXPERIENCES = [
+  {
+    year: "2025 — Present",
+    role: "WordPress Developer (Plugin Developer)",
+    company: "Prime Tech Solutions Ltd",
+    description: `Architected and developed a WordPress security plugin focused on authentication, capability checks, input sanitization/escaping, and nonce protection. Implemented secure update and distribution flows, and hardened the plugin against XSS, CSRF, and SQL injection vectors. Optimized performance and database queries; introduced caching where appropriate to reduce load. Wrote PHPUnit and integration tests, performed security audits, and fixed discovered vulnerabilities. Collaborated with product managers and QA; produced developer docs for deployment and maintenance.`,
+    technologies: ["PHP", "WordPress", "MySQL", "REST API", "PHPUnit", "Security"],
+  },
   {
     year: "2024 - 2025",
     role: "Software Engineer",
@@ -33,6 +41,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Ultimate Security — Prime Tech Solutions Ltd",
+    image: ultimatte_security,
+    description: "A comprehensive WordPress security plugin published on WordPress.org with 2FA (TOTP/HOTP), brute-force lockouts, Cloudflare Turnstile & reCAPTCHA, custom login URL, session controls, and security maintenance tools.",
+    technologies: ["WordPress", "PHP", "MySQL", "Security", "REST API", "React"],
+    url: "https://wordpress.org/plugins/ultimate-security/",
+  },
+  {
     title: "Guidant",
     image: project1,
     description:
@@ -54,16 +69,21 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JQuery", "PHP", "MySQL"],
   },
   {
-    title: "Bidout",
+    title: "Employee Management System",
     image: project4,
-    description:
-      "Bidout is an WordPress theme about various types of Multivendor Bid and Auction. This theme can be used for different types of purposes. Any kind of user easily creates to products, auction and bid marketplace website.",
-    technologies: ["HTML", "CSS", "jQuery", "PHP", "MySQL"],
+    description: "A WordPress plugin for managing employees and sales reports with a React-based admin dashboard, real-time analytics, role-based access control, and interactive sales charts.",
+    technologies: ["React", "PHP", "WordPress", "MySQL", "JavaScript", "Webpack"],
+  },
+  {
+    title: "PDF Chat RAG",
+    image: project4,
+    description: "A WordPress plugin that enables users to chat with uploaded PDF documents using Retrieval-Augmented Generation (RAG) — entirely in PHP with Google Gemini API, vector search, and a React chat frontend.",
+    technologies: ["PHP", "WordPress", "React", "Gemini API", "RAG", "MySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "Uttara, Dhaka, Bangladesh",
-  phoneNo: "+880 1581190266",
+  address: "Mirpur, Dhaka, Bangladesh",
+  phoneNo: "+880-1685878659",
   email: "marufkh204@gmail.com",
 };

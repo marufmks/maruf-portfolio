@@ -1,10 +1,12 @@
-import React from "react";
 import {
   FaReact,
-  FaPhp,
   FaWordpress,
   FaDatabase,
   FaLaravel,
+  FaGit,
+  FaShieldAlt,
+  FaDocker,
+  FaAws,
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 
@@ -78,6 +80,38 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaDatabase className="text-7xl text-[#336791]" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaGit className="text-7xl text-[#F05133]" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaShieldAlt className="text-7xl text-[#10B981]" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaDocker className="text-7xl text-[#2496ED]" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaAws className="text-7xl text-[#FF9900]" />
         </motion.div>
       </motion.div>
     </div>
